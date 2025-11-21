@@ -5,7 +5,7 @@
 const char* ssid = "Wokwi-GUEST";
 const char* password = "";
 
-const char* apiEndpoint = "https://SEU-BACKEND-SPRING-NO-AZURE.com/iot/sensordata";
+const char* apiEndpoint = "http://work360-app.azurewebsites.net/focus/iot/sensordata";
 
 #define STRESS_PIN 34 // BPM
 #define NOISE_PIN  35 // Ruído
