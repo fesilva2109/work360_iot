@@ -75,7 +75,7 @@ void loop() {
 
       // Cria o JSON
       StaticJsonDocument<256> doc;
-      doc["usuarioId"] = "user-wokwi-002";
+      doc["usuarioId"] = 9; // ID Fixo para demonstração
       doc["batimentosCardiacos"] = batimentos;
       doc["nivelRuidoDB"] = nivelRuido;
       doc["tempoFocoSegundos"] = tempoFocoSegundos;
